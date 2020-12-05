@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM дерево</title>
+    <!-- <link rel="stylesheet" href="../css/lesson8.css"> -->
+    <link rel="stylesheet" href="../css/less9.css">
+</head>
+<body>
+
+<section class="slider">
+    <ul id="slider">
+        <li class="active"><img src="../img/slides/slide1.jpg"></li>
+        <li><img src="../img/slides/slide2.jpg"></li>
+        <li><img src="../img/slides/slide3.jpg"></li>
+    </ul>
+</section>
+
+<section>
+    <h2>Генерация карточек товаров:</h2>
+    <div class="goods"></div>
+</section>
+<section>
+    <h2>Генерация карточек книг:</h2>
+    <div id="books"></div>
+</section>
+
+<section>
+    <h2>Добавленние комментариев:</h2>
+    <article>
+        <h3>Lorem ipsum dolor.</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis dolor, dolores iure labore quia
+            quo voluptatum. Accusamus adipisci aspernatur beatae consectetur consequatur delectus dignissimos dolores
+            eaque eos, ex expedita explicabo iusto laborum, laudantium, magnam nisi odit quam recusandae reiciendis
+            repudiandae saepe sint voluptatem. Dolorem ducimus officiis perspiciatis, provident quo rem ullam. Accusamus
+            accusantium asperiores, cupiditate delectus deleniti dignissimos incidunt quasi saepe sequi temporibus?
+            Adipisci asperiores consectetur est excepturi expedita explicabo facere harum, inventore labore
+            necessitatibus odio, possimus, quaerat quibusdam quos similique voluptates voluptatum! Ad aspernatur
+            corporis delectus dolorem dolorum explicabo nostrum, obcaecati optio quaerat quibusdam quo, veniam vero
+            voluptas.
+        </p>
+        <div class="comments">
+            <div class="comment">
+                <div class="comment-img">
+                    <img src="path to img" alt="AUTHOR">
+                </div>
+                <div class="comment-content">
+                    <p><span>AUTHOR</span> | <span>DATE</span></p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eius in incidunt modi nam
+                        quibusdam quos voluptatum. Incidunt inventore magni omnis quis tenetur! Blanditiis debitis quas
+                        quidem quod ratione, voluptatum. Dolores explicabo fuga iure iusto neque numquam tempora ullam
+                        veniam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+<section>
+    <h2>Добавленние элементов формы:</h2>
+    <form method="post" action="#">
+        <div class="data-fields">
+            <div><input type="text" placeholder="введите данные" name="data"></div>
+        </div>
+
+        <input type="submit" value="Отправить">
+    </form>
+</section>
+
+<section>
+    <h2>Генерация игрового поля:</h2>
+    <div id="game-field"></div>
+</section>
+
+<script src="../js/less8.js"></script>
+<script src="../js/less9.js"></script>
+</body>
+</html>

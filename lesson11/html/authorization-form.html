@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Авторизация</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/authorization-form.css">
+</head>
+
+<body>
+  <div class="authorization">
+    <form action="#" method="post" name="login-form">
+      <div class="input-wrapper">
+        <input id="login" type="text" placeholder="Логин">
+        <span class="material-icons login">face</span>
+        <span id="login-error"></span>
+      </div>
+
+      <div class="input-wrapper">
+        <input id="password" type="password" placeholder="Пароль">
+        <span class="material-icons password">lock</span>
+        <span id="password-icon" class="material-icons show">visibility_off</span>
+        <span id="password-error"></span>
+      </div>
+      <input type="submit" value="Войти">
+    </form>
+  </div>
+
+  <script src="../js/authorization-form.js"></script>
+</body>
+
+</html>

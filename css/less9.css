@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin-bottom: 30px;
+    border: 1px solid #FFAB91;
+}
+section > h2 {
+    text-align: center;
+}
+
+
+/* товары */
+.goods {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.card h2, .card p {
+    padding: 1rem;
+}
+
+/* комментарии */
+.comment {
+    display: flex;
+    margin: 2rem;
+}
+
+.comment-img {
+    flex: 1;
+    text-align: center;
+    padding: 7px;
+}
+
+.comment-img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.comment-content {
+    flex: 7;
+}
+
+.comment-content span {
+    text-transform: uppercase;
+}
+
+/* карусель */
+.slider {
+    margin-bottom: 20px;
+    position: relative;
+    height: 50vh;
+}
+
+#slider img {
+    height: 100%;
+}
+
+.slider li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 3s;
+}
+.slider li.active {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 3s;
+}

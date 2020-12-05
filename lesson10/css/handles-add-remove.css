@@ -1,0 +1,11 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-size: 1.5rem;
+}
+div {
+    padding: 20px;
+    background: plum;
+    border: 1px solid purple;
+    margin-top: 10px;
+}
