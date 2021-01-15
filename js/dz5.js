@@ -21,3 +21,15 @@ function Range(a, b, c = 1) {
 	return arr;
 }
 console.log(Range(1, 10, 2));
+
+
+function getSum(n) {
+	let sum = 0;
+	if(n < 1) {
+		return sum;
+	} else {
+		sum += n % 10;
+		return sum + getSum(Math.floor(n / 10));
+	}
+}
+console.log(getSum(134));
